@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: #ffffdd;
+}
+
+h1 {
+  font-size: 90px;
+  color: white;
+  font-family: "Sacramento", cursive;
+  margin: 50px auto 0 auto;
+
+}
+
+h2 {
+  color: #303960;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+h3{
+  color: #303960;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+p {
+  color: black;
+  font-family: 'Arial', sans-serif;
+  line-height: 2;
+  font-size: 25px;
+}
+
+a {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+hr {
+  height: 2px;
+  width: 10%;
+  border-style: dotted none none;
+  border-width: 10px;
+  border-color: grey;
+  margin: 50px auto;
+}
+
+                           /* Containers */
+
+.top-container {
+    background-color: #1f4068;
+    top: 50px;
+    padding-top: 100px;
+    margin: 0;
+}
+
+.middle-container {
+ margin: 50px auto;
+}
+
+.bottom-container {
+  background-color: #1f4068;
+  color: white;
+  width: 100%;
+  padding: 50px 0 20px;
+}
+
+                           /* Particulars */
+
+.description {
+  text-align: justify;
+  width: 70%;
+  margin: auto;
+  font-size: 25px;
+}
+
+.Programmer {
+  font-weight: normal;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+.skill-row {
+  width: 70%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  line-height: 2;
+}
+
+.brainstorm {
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  width: 70%;
+  margin: 50px auto 50px auto;
+}
+
+                              /* Images */
+
+.top-cloud {
+  position: absolute;
+  top: 130px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 350px;
+  left: 300px;
+}
+
+.Finance {
+  height: 400px;
+}
+
+.My-image {
+  border-radius: 30%;
+  width: 20%;
+  border-style: solid;
+}
+
+.Development {
+  border-radius: 20%;
+  width: 15%;
+  float: left;
+  margin-right: 50px;
+  margin-top: 25px;
+}
+
+.Excel {
+  border-radius: 20%;
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.Kevin {
+  width: 50%
+}
+
+                               /* Button */
+
+.btn {
+  background: #39d6db;
+  background-image: -webkit-linear-gradient(top, #39d6db, #11999E);
+  background-image: -moz-linear-gradient(top, #39d6db, #11999E);
+  background-image: -ms-linear-gradient(top, #39d6db, #11999E);
+  background-image: -o-linear-gradient(top, #39d6db, #11999E);
+  background-image: linear-gradient(to bottom, #39d6db, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 10px auto 50px auto;
+}
+
+.btn:hover {
+  background: #5ca7d6;
+  background-image: -webkit-linear-gradient(top, #5ca7d6, #34607d);
+  background-image: -moz-linear-gradient(top, #5ca7d6, #34607d);
+  background-image: -ms-linear-gradient(top, #5ca7d6, #34607d);
+  background-image: -o-linear-gradient(top, #5ca7d6, #34607d);
+  background-image: linear-gradient(to bottom, #5ca7d6, #34607d);
+  text-decoration: none;
+}
+
+                                /* Others */
+
+.Hello {
+  margin: 50px auto 30px auto;
+  font-size: 30px;
+}
+
+.Ak {
+  color: #1f4068;
+  font-family: 'Rowdies';
+font-size: 30px;
+}
+
+.FF {
+  color: white;
+}
+.nav-item {
+  color: black;
+}
